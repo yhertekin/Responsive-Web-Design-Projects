@@ -1,0 +1,20 @@
+#main {
+    background-color: rgb(214, 214, 205);
+}
+
+.date {
+    font-weight: bold;
+}
+
+li {
+    line-height: 2;
+}
+
+h1 {
+    text-align: center;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+}
