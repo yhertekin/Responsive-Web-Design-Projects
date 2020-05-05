@@ -1,0 +1,56 @@
+#back{
+    background-color: rgba(32, 5, 110, 0.5);
+}
+
+h1, p {
+    text-align: center;
+}
+form {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 3%;
+
+    background-color:rgba(32, 5, 110, 0.7);
+}
+input {
+    margin-bottom: 2%;
+    
+}
+
+
+#name, #email, #number, #suggestions{
+    width: 100%;
+    margin-top: 1%;
+}
+
+#submit{
+    margin-top: 2%;
+    width: 100%;
+    background-color:rgb(72, 212, 91);
+    height: 40px;
+}
+img {
+    padding: 0;
+    margin: auto;
+    
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+}
+body {
+    color: white;
+    
+}
+
+fieldset {
+    margin-top: 2%;
+}
+
+#dd {
+    margin-top: 3%;
+}
+
+#dropdown {
+    margin-top: 1%;
+}
