@@ -10,8 +10,24 @@ li {
     line-height: 2;
 }
 
+ul {
+    display: block;
+    align-self: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+}
+
 h1 {
+    padding-top: 3%;
     text-align: center;
+}
+p {
+    text-align:center;
+}
+.info {
+    display: flex;
+    align-items: center;
 }
 
 #image {
