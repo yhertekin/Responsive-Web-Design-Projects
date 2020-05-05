@@ -1,17 +1,28 @@
+* {
+    margin: 0;
+    padding: auto;
+}
+
 #back{
     background-color: rgba(32, 5, 110, 0.5);
 }
-
-h1, p {
+p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 1%;
+}
+h1 {
+    padding-top: 3%;
     text-align: center;
 }
 form {
+    margin-top: 3%;
     margin-left: 20%;
     margin-right: 20%;
     padding: 3%;
-
     background-color:rgba(32, 5, 110, 0.7);
 }
+
 input {
     margin-bottom: 2%;
     
@@ -21,6 +32,10 @@ input {
 #name, #email, #number, #suggestions{
     width: 100%;
     margin-top: 1%;
+    font-size: 20px;
+}
+#suggestions {
+    padding: 10px;
 }
 
 #submit{
@@ -51,6 +66,6 @@ fieldset {
     margin-top: 3%;
 }
 
-#dropdown {
+#dropdown, #favorite-feature{
     margin-top: 1%;
 }
